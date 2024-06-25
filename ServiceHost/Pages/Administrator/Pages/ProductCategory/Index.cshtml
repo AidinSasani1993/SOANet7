@@ -1,0 +1,21 @@
+﻿@page
+@model ServiceHost.Pages.Administrator.Pages.ProductCategory.IndexModel
+@{
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>x</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model.productCategories)
+        {
+            <tr>
+                <td>@i.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
