@@ -28,4 +28,8 @@
     <ProjectReference Include="..\OnlineShopping.EntityFrameworkCore\OnlineShopping.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Statuss\" />
+  </ItemGroup>
+
 </Project>
