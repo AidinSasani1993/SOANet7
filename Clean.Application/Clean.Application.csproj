@@ -10,4 +10,7 @@
 		<PackageReference Include="MehrSepand.Framework.Repository" Version="1.0.1" />
 		<PackageReference Include="MehrSepand.Framework.RestfulClient" Version="2.1.2" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Clean.Domain\Clean.Domain.csproj" />
+	</ItemGroup>
 </Project>

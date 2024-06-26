@@ -13,6 +13,5 @@ namespace OnlineShopping.WebApi.HttpFilters
             }
         }
     }
-    {
-    }
+    
 }
